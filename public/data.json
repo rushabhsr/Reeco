@@ -1,0 +1,102 @@
+[
+    {
+        "order_id": "32457ABC",
+        "supplier":"East coast fruits & vegetables",
+        "shipping_details":"09-11-2023",
+        "category":"icons",
+        "department":"300-444-678",
+        "status":"Awaiting your approval",
+        "order_details": [
+            {
+                "id": 1,
+                "name": "Avacado product for healthy lifestyle and fitness 1",
+                "brand": "Brand 1",
+                "price": 101.1,
+                "quantity": 1,
+                "status": "",
+                "img": "image.jpeg"
+            },
+            {
+                "id": 2,
+                "name": "Avacado product for healthy lifestyle and fitness 2",
+                "brand": "Brand 2",
+                "price": 102.2,
+                "quantity": 2,
+                "status": "",
+                "img": "image.jpeg"
+            },
+            {
+                "id": 3,
+                "name": "Avacado product for healthy lifestyle and fitness 3",
+                "brand": "Brand 3",
+                "price": 103.3,
+                "quantity": 3,
+                "status": "",
+                "img": "image.jpeg"
+            },
+            {
+                "id": 4,
+                "name": "Avacado product for healthy lifestyle and fitness 4",
+                "brand": "Brand 4",
+                "price": 104.4,
+                "quantity": 0,
+                "status": "",
+                "img": "image.jpeg"
+            },
+            {
+                "id": 5,
+                "name": "Avacado product for healthy lifestyle and fitness 5",
+                "brand": "Brand 5",
+                "price": 105.5,
+                "quantity": 2,
+                "status": "",
+                "img": "image.jpeg"
+            },
+            {
+                "name": "Avacado product for healthy lifestyle and fitness 6",
+                "brand": "Brand 6",
+                "price": 106.6,
+                "quantity": 13,
+                "status": "",
+                "img": "image.jpeg"
+            },
+            {
+                "name": "Avacado product for healthy lifestyle and fitness 7",
+                "brand": "Brand 7",
+                "price": 107.7,
+                "quantity": 1,
+                "status": "",
+                "img": "image.jpeg"
+            },
+            {
+                "name": "Avacado product for healthy lifestyle and fitness 8",
+                "brand": "Brand 8",
+                "price": 108.8,
+                "quantity": 2,
+                "status": "",
+                "img": "image.jpeg"
+            }
+        ]
+    },
+    {
+        "order_id": "32457DEF",
+        "order_details": [
+            {
+                "name": "Avacado product for healthy lifestyle and fitness 9",
+                "brand": "Brand 9",
+                "price": 109.9,
+                "quantity": 1,
+                "status": "",
+                "img": "image.jpeg"
+            },
+            {
+                "name": "Avacado product for healthy lifestyle and fitness 10",
+                "brand": "Brand 10",
+                "price": 1010.10,
+                "quantity": 2,
+                "status": "",
+                "img": "image.jpeg"
+            }
+        ]
+    }
+]
