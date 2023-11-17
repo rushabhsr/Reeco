@@ -13,7 +13,7 @@
                 "brand": "Brand 1",
                 "price": 101.1,
                 "quantity": 1,
-                "status": "",
+                "status": "Approved",
                 "img": "image.jpeg"
             },
             {
@@ -22,7 +22,7 @@
                 "brand": "Brand 2",
                 "price": 102.2,
                 "quantity": 2,
-                "status": "",
+                "status": "Missing Urgent",
                 "img": "image.jpeg"
             },
             {
