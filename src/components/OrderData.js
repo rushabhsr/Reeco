@@ -13,12 +13,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Button } from '@mui/material';
 import DoneOutlinedIcon from '@mui/icons-material/DoneOutlined';
 import ClearOutlinedIcon from '@mui/icons-material/ClearOutlined';
-import { setOrders } from '../redux/orderSlice';
 
 
 export default function StickyHeadTable() {
   const order = useSelector((state) => state.orders[0]);
-  const dispatch = useDispatch()
   const [status, setStatus] = useState(new Array(8).fill("na"));
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);

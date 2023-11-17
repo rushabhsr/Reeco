@@ -7,13 +7,16 @@ import Typography from '@mui/material/Typography';
 import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import { Select, SvgIcon, Button } from '@mui/material';
+import { Select, Button } from '@mui/material';
 
 
 export default function Header() {
     const [selectedOption, setSelectedOption] = React.useState('option1');
     const [userName, setUserName] = React.useState('James');
     const navItems = ['Store', 'Orders', 'Analytics'];
+    const handleLogout = () =>{
+        setUserName("");
+    }
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static" sx={{ backgroundColor: '#0b6e25', px: '3rem' }}>
@@ -57,7 +60,7 @@ export default function Header() {
                             sx={{ color: "white", border: 'none', textDecoration: 'none' }}
                         >
                             <MenuItem value="option1">{"Hello, " + userName}</MenuItem>
-                            <MenuItem value="option2">Logout</MenuItem>
+                            <MenuItem value="option2" onClick={handleLogout}>Logout</MenuItem>
                         </Select>
 
                     </Box>
